@@ -1,0 +1,170 @@
+*{
+    background-color: #EEEEEE;
+    padding: 15px;
+}
+
+:root {
+    --nblue: #93aec1;
+    --ngrey:#9dbdba;
+    --norange:#f8b042;
+    --nred:#ec6a52;
+    --npink:#f3b7ad;
+  }
+
+@font-face {
+    font-family: sushi;
+    src: url(./fonts/sushi.ttf);
+}
+
+body {
+    margin: auto;
+    padding: 0px;
+    border: 0px;
+}
+
+
+nav {
+    /*background-color: #eee;
+    border-radius: 100px;*/
+    padding: 25px 0px 40px 0px;
+    color: black;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+    border-bottom: 2px solid;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    /*background-color: #eee;*/
+    padding: 0% 3% ;
+    display: inline-block;
+    transition: background-color 0.3s;    
+}
+
+nav a:hover {
+    color: #393944;
+}
+
+#title{
+    text-align: center;
+    font-size: 300%;
+    margin: 0px;
+    font-family: sushi;
+    
+}
+
+.pic_container{
+    padding: 0% 25%;
+    align-items: center;
+
+}
+
+.pic{
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    
+}
+
+#about-page{
+    font-family: eagle;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+.heading-style {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #333;
+    color: #fff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #ddd;
+}
+
+#about-page p:nth-child(even) {
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 70px;
+    text-align: right;
+    
+}
+
+
+#about-page p:nth-child(odd) {
+    background-color: white;
+    border-radius: 20px;
+    margin-right: 70px;
+    text-align: left;
+}
+
+
+
+div{
+    padding: 0px;
+    margin: 0px;
+}
+
+.gallery-container{
+    width: 600px;
+    text-align: center;
+    display: grid;
+    grid-template-columns: auto auto ;
+    margin: 0 5%;
+    column-gap: 50px;
+}
+
+.gallery {
+    border: 5px solid #ccc;
+    float: left;
+    width: 100%;
+    height: 450px;
+    margin: 30px;
+}
+  
+.gallery:hover {
+    border: 6px solid #777;
+}
+  
+.gallery img {
+    width: 500px;
+    height: auto;
+}
+  
+.desc {
+    padding: 15px;
+    text-align: center;
+}
+
